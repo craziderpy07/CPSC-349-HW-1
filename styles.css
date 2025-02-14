@@ -1,0 +1,43 @@
+/* General Guidelines:
+   - Use the provided purple color (#6f5eff) where applicable.
+   - The default font family for HW1 should be Arial, sans-serif.
+*/
+
+/* Typography: */
+/* 
+"House Design" title 
+    font-size: 1.5rem;
+    font-weight: bold;
+"House Styling" title 
+    font-size: 20px;
+Footer section headings: 'Store Info', 'About', 'Account', 'Policy'
+    font-size: 14px;
+Footer content 
+    font-size: 12px;
+For all other text, if not specified above, an approximate font size is acceptable. 
+*/
+
+/* TO-DO */
+body {
+    background: linear-gradient(180deg, whitesmoke 50%, white 50%);
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+hr { 
+    color: #D3D3D3;
+    margin-top: 25px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.directory {
+    text-align: center;
+    justify-content: space-between;
+}
