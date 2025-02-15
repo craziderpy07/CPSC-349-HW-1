@@ -19,11 +19,11 @@ For all other text, if not specified above, an approximate font size is acceptab
 
 /* TO-DO */
 body {
-    background: linear-gradient(180deg, whitesmoke 50%, white 50%);
     font-family: Arial, sans-serif;
 }
 
 h1 {
+    padding-top: 35px;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
@@ -32,25 +32,90 @@ h1 {
 h2 {
     font-size: 20px;
     color: #6f5eff;
+    margin-left: 2.5vw;
+}
+
+.living-room-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-527%, 5425%);
+    color: black;
+    text-align: center;
+}
+
+.kitchen-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(297%, 5425%);
+    color: black;
+    text-align: center;
+}
+
+.bathroom-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-657%, 9585%);
+    color: black;
+    text-align: center;
+}
+
+.hallway-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(292%, 9585%);
+    color: black;
+    text-align: center;
 }
 
 hr { 
     color: #D3D3D3;
-    margin-bottom: 0;
-    margin-top: 25px;
+    margin-bottom: -1px;
+    margin-top: 15px;
     margin-left: -15px;
     margin-right: -15px;
     max-width: page-width;
 }
 
 .directory {
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -17px;
     justify-content: center;
     text-align: center;
+    background-color: #FAF9F6;
 }
 
+.bottom {
+    margin-top: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -17px;
+    padding: 200px;
+    justify-content: center;
+    text-align:center;
+    background-color: #FAF9F6;
+}
+
+.bottom-text {
+    font-size: 20px;
+    padding: 25px 100px;
+    color: black;
+    font-weight:lighter;
+    text-align: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
 button {
-    padding: 0 100px;
-    font-family: Arial;
+    font-size: 20px;
+    padding: 25px 100px;
     color: grey;
     font-weight: bold;
     text-align: center;
@@ -59,17 +124,109 @@ button {
     cursor: pointer;
 }
 
-.center {
-    margin-top: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+ .living-room-browse-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-560%, 3000%);
+    background-color: #6f5eff;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.living-room-browse-button:hover {
+    background-color: grey;
+}
+
+.kitchen-browse-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(175%, 3000%);
+    background-color: #6f5eff;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.kitchen-browse-button:hover {
+    background-color: grey;
+}
+
+.bathroom-browse-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-560%, 5175%);
+    background-color: #6f5eff;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bathroom-browse-button:hover {
+    background-color: grey;
+}
+
+.hallway-browse-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(175%, 5175%);
+    background-color: #6f5eff;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hallway-browse-button:hover {
+    background-color: grey;
 }
 
 .image-scroll {
-    background-image: url("./image/background.jpg");
-    min-height: 50vh;
+    background-image: url("image/background.jpg");
+    min-height: 75vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.image-frame1 {
+    width: 700px;
+    height: 700px;
+    border: 0 solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #666;
+    padding: 10px;
+    padding-bottom: 175px;
+    margin-left: 2.5vw;
+}
+
+.image-frame2 {
+    width: 700px;
+    height: 700px;
+    border: 0 solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #666;
+    padding: 10px;
+    padding-bottom: 175px;
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
 }
